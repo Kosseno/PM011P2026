@@ -8,7 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/Foto"
+        android:id="@+id/foto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:layout_editor_absoluteX="136dp"
@@ -27,7 +27,7 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Foto" />
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
 
     <EditText
         android:id="@+id/correo"
@@ -42,10 +42,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Foto" />
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
 
     <EditText
-        android:id="@+id/nombres4"
+        android:id="@+id/edad"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
@@ -57,7 +57,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Foto" />
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
 
     <EditText
         android:id="@+id/apellidos"
@@ -72,7 +72,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Foto" />
+        app:layout_constraintTop_toBottomOf="@+id/foto" />
 
     <Button
         android:id="@+id/button"
